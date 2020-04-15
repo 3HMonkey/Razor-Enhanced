@@ -1,0 +1,24 @@
+{
+  "SHARDS": [
+    {
+      "Description": "OSI Ultima Online",
+      "ClientPath": "",
+      "ClientFolder": "",
+      "Host": "login.ultimaonline.com",
+      "Port": 7776,
+      "PatchEnc": true,
+      "OSIEnc": true,
+      "Selected": false
+    },
+    {
+      "Description": "Classic UO Default",
+      "ClientPath": "C:\\\\Program Files (x86)\\\\UOForever2\\\\UO\\client.exe",
+      "ClientFolder": "C:\\\\Program Files (x86)\\\\UOForever2\\\\UO",
+      "Host": "login.uoforever.com",
+      "Port": 2599,
+      "PatchEnc": true,
+      "OSIEnc": false,
+      "Selected": true
+    }
+  ]
+}
