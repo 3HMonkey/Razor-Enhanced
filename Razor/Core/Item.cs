@@ -90,12 +90,12 @@ namespace Assistant
         public static Item Factory(Serial serial, UInt32 itemID)
         {
             // during drag operation item may be removed from World
-            if (DragDropManager.Holding != null && DragDropManager.Holding.Serial == serial)
-            {
-                // resurrecting this guy so mark him un-deleted
-                DragDropManager.Holding.Deleted = false;
-                return DragDropManager.Holding;
-            }
+            //if (DragDropManager.Holding != null && DragDropManager.Holding.Serial == serial)
+            //{
+            //    // resurrecting this guy so mark him un-deleted
+            //    DragDropManager.Holding.Deleted = false;
+            //    return DragDropManager.Holding;
+            //}
             switch (itemID)
             {
                 case 0x14EC:
